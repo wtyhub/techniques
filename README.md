@@ -31,7 +31,7 @@ Deep learning has revolutionized the analysis and interpretation of satellite an
 - [Few & zero shot learning](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#few--zero-shot-learning)
 - [Self-supervised, unsupervised & contrastive learning](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#self-supervised-unsupervised--contrastive-learning)
 - [SAR](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#sar)
-- [Cross-view Geo-localization](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#Cross-view-Geo-localization)
+- [Geo-localization](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#Geo-localization)
 - [Large vision & language models (LLMs & LVMs)](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#large-vision--language-models-llms--lvms)
 - [Foundational models](https://github.com/satellite-image-deep-learning/techniques?tab=readme-ov-file#foundational-models)
 
@@ -3613,8 +3613,9 @@ SAR (synthetic aperture radar) is used to detect and measure the properties of o
 - [Sentinel1-Flood-Finder](https://github.com/cordmaur/Sentinel1-Flood-Finder) -> Flood Finder Package from Sentinel 1 Imagery
 
 #
-## Cross-view Geo-localization
-xxx
+## Geo-localization
+
+Given a drone-veiw or ground-view image, Cross-vew Geo-localization is to spot the most matching satellite-view image from candidates. Since satellite-view images possess GPS metadata as annotations, the user can easily acquire the location information of the interesting position. 
 #
 ## NDVI - vegetation index
 
